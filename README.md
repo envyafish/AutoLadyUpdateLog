@@ -17,14 +17,14 @@ docker run
   --net='bridge'
   -p 8043:80
   -v /mnt/user/appdata/auto-lady:/data 
-  /orekiiiiiiiiiiiii/auto-lady:latest
+  /envyafish/byte-muse:latest
 ```
 
 ```
 version: '3'
 services:
   auto-lady:
-    image: orekiiiiiiiiiiiii/auto-lady:latest
+    image: /envyafish/byte-muse:latest
     container_name: auto-lady
     restart: always
     networks:
