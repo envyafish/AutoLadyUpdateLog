@@ -23,7 +23,7 @@ docker run
 ```
 version: '3'
 services:
-  auto-lady:
+  byte-muse:
     image: /envyafish/byte-muse:latest
     container_name: byte-muse
     restart: always
