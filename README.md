@@ -38,4 +38,5 @@ networks:
   bridge:
     driver: bridge
 ```
-首次启动 账号密码可在后台日志查看
+#### 首次启动 账号密码可在后台日志查看
+#### 自行激活 https://hub.docker.com/r/envyafish/byte-muse-license
