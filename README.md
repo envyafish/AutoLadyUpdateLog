@@ -16,7 +16,7 @@ docker run
 version: '3'
 services:
   byte-muse:
-    image: /envyafish/byte-muse:latest
+    image: envyafish/byte-muse:latest
     container_name: byte-muse
     restart: always
     networks:
