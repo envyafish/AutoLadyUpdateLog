@@ -1,5 +1,4 @@
 # 请勿宣传此项目！！
-# 个人搭建的激活程序请勿开放到公共社区
 
 ## 食用方法
 ```
@@ -31,4 +30,3 @@ networks:
     driver: bridge
 ```
 #### 首次启动 账号密码可在后台日志查看
-#### 自行激活 https://hub.docker.com/r/envyafish/byte-muse-license
