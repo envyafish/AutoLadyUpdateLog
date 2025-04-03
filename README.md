@@ -1,15 +1,6 @@
 # 请勿宣传此项目！！
 
 ## 食用方法
-```
-docker run
-  -d
-  --name='byte-muse'
-  --net='bridge'
-  -p 8043:80
-  -v /mnt/user/appdata/byte-muse:/data 
-  /envyafish/byte-muse:latest
-```
 
 ```
 version: '3'
@@ -24,6 +15,18 @@ services:
       - "8043:80"
     volumes:
       - /mnt/user/appdata/byte-muse:/data
+  # 若需要开启图书馆榜单,可自行部署如下服务。并于byte-muse项目中配置bypass_url
+  cloudflarebypass:
+    image: ghcr.io/sarperavci/cloudflarebypassforscraping:latest
+    container_name: cloudflarebypass
+    restart: always
+    network_mode: bridge
+    ports:
+      - 8089:8000
+    environment:
+      - HTTP_PROXY=http://192.168.50.198:7890
+      - HTTPS_PROXY=http://192.168.50.198:7890
+      - DOCKERMODE=true
 
 networks:
   bridge:
