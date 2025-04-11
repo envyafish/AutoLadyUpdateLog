@@ -1,24 +1,32 @@
 [
   {
+    "version": "1.10.8",
+    "date": "2025-04-11",
+    "changes": [
+      "优化：CPU占用",
+      "优化：bypass由本项目主动设置代理"
+    ]
+  },
+  {
     "version": "1.10.7",
     "date": "2025-04-07",
     "changes": [
       "修复：定时程序同步榜单"
-      ]
+    ]
   },
   {
     "version": "1.10.6",
     "date": "2025-04-06",
     "changes": [
       "新增: JavLibrary榜单，需要配置 cloudflarebypass 容器，否则无法使用，详情见 https://github.com/envyafish/AutoLadyIssue"
-      ]
+    ]
   },
   {
     "version": "1.10.5",
     "date": "2025-04-03",
     "changes": [
       "优化: 样式调整"
-      ]
+    ]
   },
   {
     "version": "1.10.4",
