@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.10.10",
+    "date": "2025-04-14",
+    "changes": [
+      "优化：考虑到部分用户使用VPS部署Bypass容器，取消BM主动为bypass设置代理"
+    ]
+  },
+  {
     "version": "1.10.9",
     "date": "2025-04-11",
     "changes": [
