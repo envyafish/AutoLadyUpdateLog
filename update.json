@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.17.4",
+    "date": "2025-08-13",
+    "changes": [
+      "1.新增 IP、Moodyz、Das、Madonna、Premium 厂牌发行日"
+    ]
+  },
+  {
     "version": "1.17.2",
     "date": "2025-08-13",
     "changes": [
